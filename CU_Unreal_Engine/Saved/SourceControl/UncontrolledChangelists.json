@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/Inputs/IA_Jump_Example.uasset",
+				"/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/Inputs/IA_Move.uasset",
+				"/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/Inputs/IMC_player_one.uasset"
+			]
+		}
+	]
+}

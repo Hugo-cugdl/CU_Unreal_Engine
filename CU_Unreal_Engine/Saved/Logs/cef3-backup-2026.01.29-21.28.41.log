@@ -1,0 +1,12 @@
+[1293116:1293116:0129/152801.241616:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[1293116:1293116:0129/152803.683161:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 2295ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
+[1293116:1293116:0129/152803.705665:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[1293116:1293388:0129/152803.729270:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
+[1293116:1293391:0129/152812.778156:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
+[1293116:1293116:0129/152813.043545:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[1293116:1293116:0129/152813.043809:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[1293116:1293116:0129/152813.043896:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[1293116:1293116:0129/152813.043937:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[1293116:1293391:0129/152813.048062:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[1293116:1293391:0129/152813.228989:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[1293116:1293116:0129/152841.231506:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

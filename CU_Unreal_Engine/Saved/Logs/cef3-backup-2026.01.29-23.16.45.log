@@ -1,0 +1,12 @@
+[6735:6735:0129/171232.179957:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[6735:6735:0129/171234.558012:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 2245ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
+[6735:6735:0129/171234.571620:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[6735:6953:0129/171234.589511:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
+[6735:6956:0129/171243.365217:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
+[6735:6735:0129/171243.635181:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[6735:6735:0129/171243.635977:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[6735:6735:0129/171243.636169:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[6735:6735:0129/171243.636221:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[6735:6956:0129/171243.639583:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[6735:6956:0129/171247.555975:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[6735:6735:0129/171645.629331:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
