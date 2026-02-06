@@ -1,0 +1,125 @@
+﻿Log file open, 02/05/26 18:21:21
+LogICUInternationalization: OS requested locale 'en_US' is not supported. Using the OS requested language of 'en-US' as the locale.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogConfig: No local boot hotfix file found at: [/home/deck/.config/Epic/CrashReportClient/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogInit: ExecutableName: CrashReportClientEditor
+LogInit: Build: ++UE5+Release-5.7-CL-49658320
+LogInit: Platform=Linux
+LogInit: MachineId=6ae06a05ac6c498e83b03946bf450105-000003e8
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.2-49658320+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: SteamOS (6.11.11-valve26-1-neptune-611-gb3afa9aa9ae7), CPU: AMD Custom APU 0405, GPU: AMD PCI-id: 1002-163f (1002-0123)
+LogInit: CPU Model ID: 17902, microcode revision: 8900203
+LogInit: Compiled (64-bit): Jan  9 2026 22:06:20
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 20.1.8 (github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line:  -Abslog="/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/Logs/CU_Unreal_Engine-CRC.log" -Unattended "/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/Crashes/ensureinfo-CU_Unreal_Engine-pid-6154-3EE7A765FD1645909A147EC8345AE638/"
+LogInit: Base Directory: /home/deck/Downloads/EPIG/Linux_Unreal_Engine_5.7.2/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC.
+LogInit: Object subsystem initialized
+[2026.02.06-00.21.22:205][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.02.06-00.21.22:205][  0]LogInit: Unix hardware info:
+[2026.02.06-00.21.22:205][  0]LogInit:  - we are the first instance of this executable
+[2026.02.06-00.21.22:205][  0]LogInit:  - this process' id (pid) is 13415, parent process' id (ppid) is 6154
+[2026.02.06-00.21.22:205][  0]LogInit:  - we are not running under debugger
+[2026.02.06-00.21.22:205][  0]LogInit:  - machine network name is 'steamdeck'
+[2026.02.06-00.21.22:205][  0]LogInit:  - user name is 'deck' (deck)
+[2026.02.06-00.21.22:205][  0]LogInit:  - we're logged in locally
+[2026.02.06-00.21.22:205][  0]LogInit:  - we're running with rendering
+[2026.02.06-00.21.22:205][  0]LogInit:  - CPU: AuthenticAMD 'AMD Custom APU 0405' (signature: 0x890F02)
+[2026.02.06-00.21.22:205][  0]LogInit:  - Number of physical cores available for the process: 4
+[2026.02.06-00.21.22:205][  0]LogInit:  - Number of logical cores available for the process: 8
+[2026.02.06-00.21.22:205][  0]LogInit:  - GPU Brand Info: AMD PCI-id: 1002-163f (1002-0123)
+[2026.02.06-00.21.22:205][  0]LogInit:  - Memory allocator used: Mimalloc
+[2026.02.06-00.21.22:205][  0]LogInit:  - This is an internal build.
+[2026.02.06-00.21.22:205][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2026.02.06-00.21.22:205][  0]LogInit: Unix-specific commandline switches:
+[2026.02.06-00.21.22:205][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2026.02.06-00.21.22:205][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2026.02.06-00.21.22:205][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2026.02.06-00.21.22:205][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2026.02.06-00.21.22:205][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2026.02.06-00.21.22:205][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2026.02.06-00.21.22:205][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2026.02.06-00.21.22:205][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2026.02.06-00.21.22:205][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2026.02.06-00.21.22:205][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2026.02.06-00.21.22:205][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2026.02.06-00.21.22:205][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2026.02.06-00.21.22:205][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2026.02.06-00.21.22:205][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2026.02.06-00.21.22:205][  0]LogInit:  - Physical RAM available (not considering process quota): 15 GB (14809 MB, 15164964 KB, 15528923136 bytes)
+[2026.02.06-00.21.22:205][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1
+[2026.02.06-00.21.22:205][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2026.02.06-00.21.22:205][  0]LogInit:  - PageSize 4096
+[2026.02.06-00.21.22:205][  0]LogInit:  - BinnedPageSize 65536
+[2026.02.06-00.21.22:209][  0]LogUObjectArray: 563 objects as part of root set at end of initial load.
+[2026.02.06-00.21.22:209][  0]LogUObjectArray: 0 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2026.02.06-00.21.22:209][  0]LogUObjectArray: CloseDisregardForGC: 563/563 objects in disregard for GC pool
+[2026.02.06-00.21.22:211][  0]LogInit: Using OS detected language (en-US).
+[2026.02.06-00.21.22:211][  0]LogInit: Using OS detected locale (en-US).
+[2026.02.06-00.21.22:211][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.02.06-00.21.22:281][  0]LogInit: Using OS detected language (en-US).
+[2026.02.06-00.21.22:281][  0]LogInit: Using OS detected locale (en-US).
+[2026.02.06-00.21.22:281][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.02.06-00.21.22:281][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2026.02.06-00.21.22:281][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000052 seconds
+[2026.02.06-00.21.22:305][  0]LogInit: Using libcurl 8.12.1
+[2026.02.06-00.21.22:305][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2026.02.06-00.21.22:305][  0]LogInit:  - supports SSL with OpenSSL/1.1.1t
+[2026.02.06-00.21.22:305][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.3
+[2026.02.06-00.21.22:305][  0]LogInit:  - other features:
+[2026.02.06-00.21.22:305][  0]LogInit:      CURL_VERSION_SSL
+[2026.02.06-00.21.22:305][  0]LogInit:      CURL_VERSION_LIBZ
+[2026.02.06-00.21.22:305][  0]LogInit:      CURL_VERSION_IPV6
+[2026.02.06-00.21.22:305][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2026.02.06-00.21.22:305][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2026.02.06-00.21.22:305][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2026.02.06-00.21.22:305][  0]LogInit:      CURL_VERSION_HTTP2
+[2026.02.06-00.21.22:305][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2026.02.06-00.21.22:305][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2026.02.06-00.21.22:305][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2026.02.06-00.21.22:305][  0]LogInit:  - CVarHttpCurlReuseConnectionEnabled = true  - Libcurl will reuse connections
+[2026.02.06-00.21.22:305][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2026.02.06-00.21.22:305][  0]LogInit:  - LocalHostAddr = Default
+[2026.02.06-00.21.22:305][  0]LogInit:  - BufferSize = 65536
+[2026.02.06-00.21.22:305][  0]LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+[2026.02.06-00.21.22:305][  0]LogInit: Creating http thread with maximum 256 concurrent requests
+[2026.02.06-00.21.22:306][  0]LogAnalytics: Display: [CrashReporter.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = ++UE5+Release-5.7-CL-49658320 )
+[2026.02.06-00.21.22:308][  0]CrashReportCoreLog: Display: Applying project settings from '/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/Crashes/ensureinfo-CU_Unreal_Engine-pid-6154-3EE7A765FD1645909A147EC8345AE638/CrashReportClient.ini'.
+[2026.02.06-00.21.22:308][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2026.02.06-00.21.22:308][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2026.02.06-00.21.22:308][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2026.02.06-00.21.22:309][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2026.02.06-00.21.22:309][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2026.02.06-00.21.22:309][  0]LogCrashDebugHelper: DepotName: //UE5/Release-5.7
+[2026.02.06-00.21.22:309][  0]LogCrashDebugHelper: BuiltFromCL: 49658320
+[2026.02.06-00.21.22:309][  0]LogCrashDebugHelper: EngineVersion: 5.7.2-49658320+++UE5+Release-5.7
+[2026.02.06-00.21.22:309][  0]LogCrashDebugHelper: BuildVersion: ++UE5+Release-5.7-CL-49658320
+[2026.02.06-00.21.23:281][  0]CrashReportCoreLog: Got 4 pending files to upload from 'ensureinfo-CU_Unreal_Engine-pid-6154-3EE7A765FD1645909A147EC8345AE638'
+[2026.02.06-00.21.23:281][  0]CrashReportCoreLog: State change from Ready to SendingFiles
+[2026.02.06-00.21.23:281][  0]CrashReportCoreLog: CompressAndSendData have 4 pending files
+[2026.02.06-00.21.23:281][  0]CrashReportCoreLog: CompressAndSendData compressing 16920 bytes ('/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/Crashes/ensureinfo-CU_Unreal_Engine-pid-6154-3EE7A765FD1645909A147EC8345AE638/Diagnostics.txt')
+[2026.02.06-00.21.23:281][  0]CrashReportCoreLog: CompressAndSendData compressing 256 bytes ('/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/Crashes/ensureinfo-CU_Unreal_Engine-pid-6154-3EE7A765FD1645909A147EC8345AE638/CrashReportClient.ini')
+[2026.02.06-00.21.23:281][  0]CrashReportCoreLog: CompressAndSendData compressing 75963 bytes ('/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/Crashes/ensureinfo-CU_Unreal_Engine-pid-6154-3EE7A765FD1645909A147EC8345AE638/CrashContext.runtime-xml')
+[2026.02.06-00.21.23:281][  0]CrashReportCoreLog: CompressAndSendData compressing 312079 bytes ('/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/Crashes/ensureinfo-CU_Unreal_Engine-pid-6154-3EE7A765FD1645909A147EC8345AE638/CU_Unreal_Engine.log')
+[2026.02.06-00.21.23:288][  0]CrashReportCoreLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=5.7.2-49658320%2B%2B%2BUE5%2BRelease-5.7&AppEnvironment=Release&UploadType=crashreports&UserID=6ae06a05ac6c498e83b03946bf450105-000003e8%7C%7C6ae06a05ac6c498e83b03946bf450105, Payload size: 51820
+[2026.02.06-00.21.24:216][  0]CrashReportCoreLog: OnProcessRequestComplete(), State=SendingFiles Response=204 ConnectedSuccesfully=1
+[2026.02.06-00.21.24:216][  0]CrashReportCoreLog: All uploads done
+[2026.02.06-00.21.24:216][  0]CrashReportCoreLog: State change from SendingFiles to Finished
+[2026.02.06-00.21.24:316][  0]CrashReportCoreLog: Final state (Receiver) = Finished
+[2026.02.06-00.21.24:316][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2026.02.06-00.21.24:316][  0]LogAnalytics: Display: [CrashReporter.Release] AnalyticsET::EndSession
+[2026.02.06-00.21.24:316][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit)
+[2026.02.06-00.21.24:316][  0]LogExit: Preparing to exit.
+[2026.02.06-00.21.24:319][  0]LogExit: Object subsystem successfully closed.
+[2026.02.06-00.21.24:820][  0]LogPakFile: Destroying PakPlatformFile
+[2026.02.06-00.21.24:821][  0]LogExit: Exiting.
+[2026.02.06-00.21.24:828][  0]Log file closed, 02/05/26 18:21:24
