@@ -1,0 +1,91 @@
+Generating report for minidump
+
+Application version 5.7.2.0
+ ... built from changelist 49658320
+
+OS version Linux 6.11.11-valve26-1-neptune-611-gb3afa9aa9ae7 (network name: steamdeck)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "Ensure condition failed: Registrations.Num() == 0  [File:../Plugins/Experimental/LocalizableMessage/Source/LocalizableMessage/Public/LocalizableMessageProcessor.h] [Line: 24] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-LocalizableMessage.so!FLocalizableMessageProcessor::FScopedRegistrations::~FScopedRegistrations() [/mnt/horde/++UE5/Sync/Engine/Source/../Plugins/Experimental/LocalizableMessage/Source/LocalizableMessage/Public/LocalizableMessageProcessor.h:24]
+libc.so.6!UnknownFunction(0x403d0)
+libc.so.6!exit(+0x1d)
+libX11.so.6!_XDefaultError(+0x47)
+libX11.so.6!_XError(+0x136)
+libX11.so.6!UnknownFunction(0x42c3f)
+libX11.so.6!_XReply(+0x3bf)
+libX11.so.6!XTranslateCoordinates(+0x8a)
+libUnrealEditor-ApplicationCore.so!X11_DispatchEvent [/SDL-gui-backend/src/video/x11/SDL_x11events.c:1458]
+libUnrealEditor-ApplicationCore.so!X11_PumpEvents [/SDL-gui-backend/src/video/x11/SDL_x11events.c:2145]
+libUnrealEditor-ApplicationCore.so!X11_HideWindow [/SDL-gui-backend/src/video/x11/SDL_x11window.c:1552]
+libUnrealEditor-ApplicationCore.so!SDL_HideWindow_REAL [/SDL-gui-backend/src/video/SDL_video.c:3288]
+libUnrealEditor-Kismet.so!FPinValueInspectorTooltip::DismissTooltip() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Kismet/Private/SPinValueInspector.cpp:356]
+libUnrealEditor-Kismet.so!FPinValueInspectorTooltip::TryDismissTooltip(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Kismet/Private/SPinValueInspector.cpp:342]
+libUnrealEditor-GraphEditor.so!SGraphPin::Tick(FGeometry const&, double, float) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/SGraphPin.cpp:952]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1445]
+libUnrealEditor-SlateCore.so!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SCompoundWidget.cpp:46]
+libUnrealEditor-Slate.so!SBorder::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Layout/SBorder.cpp:131]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SOverlay.cpp:210]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-GraphEditor.so!SNodePanel::SNode::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/Editor/GraphEditor/Public/SNodePanel.h:550]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-GraphEditor.so!SGraphPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/SGraphPanel.cpp:411]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SOverlay.cpp:210]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SCompoundWidget.cpp:46]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-Slate.so!SBox::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Layout/SBox.cpp:307]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SCompoundWidget.cpp:46]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SCompoundWidget.cpp:46]
+libUnrealEditor-Slate.so!SBorder::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Layout/SBorder.cpp:131]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SOverlay.cpp:210]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SCompoundWidget.cpp:46]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-Slate.so!SSplitter::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Layout/SSplitter.cpp:270]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SCompoundWidget.cpp:46]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-Slate.so!SSplitter::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Widgets/Layout/SSplitter.cpp:270]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SOverlay.cpp:210]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SOverlay.cpp:210]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SCompoundWidget.cpp:46]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SCompoundWidget.cpp:46]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SPanel.cpp:33]
+libUnrealEditor-SlateCore.so!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:1579]
+libUnrealEditor-SlateCore.so!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) con
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
