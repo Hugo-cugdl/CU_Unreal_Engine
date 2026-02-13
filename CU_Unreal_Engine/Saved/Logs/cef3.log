@@ -1,12 +1,5 @@
-[14097:14097:0205/182258.780430:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[14097:14097:0205/182305.536633:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 6614ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
-[14097:14097:0205/182305.557207:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[14097:14343:0205/182305.581420:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
-[14097:14346:0205/182317.825165:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[14097:14346:0205/182317.978589:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
-[14097:14097:0205/182318.255747:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
-[14097:14097:0205/182318.256330:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
-[14097:14097:0205/182318.256566:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
-[14097:14097:0205/182318.256664:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
-[14097:14346:0205/182318.262325:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
-[14097:14097:0205/182537.054716:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[22438:22438:0212/173044.675620:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[22438:22438:0212/173047.509325:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 2662ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
+[22438:22438:0212/173047.520142:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[22438:22675:0212/173047.536533:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
+[22438:22438:0212/181131.403713:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
