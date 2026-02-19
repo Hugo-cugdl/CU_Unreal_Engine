@@ -1,0 +1,46 @@
+Generating report for minidump
+
+Application version 5.7.2.0
+ ... built from changelist 49658320
+
+OS version Linux 6.11.11-valve26-1-neptune-611-gb3afa9aa9ae7 (network name: steamdeck)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "SIGABRT: abort() called"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libfbxsdk.so!_ZNK6fbxsdk17FbxPropertyHandle14GetPageDataPtrEv()
+libfbxsdk.so!_ZNK6fbxsdk11FbxProperty12GetDstObjectERKNS_11FbxCriteriaEi(+0x58)
+libfbxsdk.so!_ZN6fbxsdk7FbxNode9GetParentEv(+0x2c)
+libfbxsdk.so!_ZN6fbxsdk7FbxPose21IsValidBindPoseCommonEPNS_7FbxNodeEPNS_8FbxArrayIS2_Li16EEES5_S5_S5_PNS_9FbxStatusEd(+0x785)
+libUnrealEditor-InterchangeFbxParser.so!UE::Interchange::Private::RetrievePoseFromBindPose(fbxsdk::FbxNode*, fbxsdk::FbxAMatrix&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Interchange/Runtime/Source/Parsers/Fbx/Private/FbxMesh.cpp:2072]
+libUnrealEditor-InterchangeFbxParser.so!UE::Interchange::Private::FFbxJointMeshBindPoseGenerator::FFbxJointMeshBindPoseGenerator(fbxsdk::FbxScene*, UE::Interchange::Private::FFbxParser&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Interchange/Runtime/Source/Parsers/Fbx/Private/FbxMesh.cpp:2292]
+libUnrealEditor-InterchangeFbxParser.so!UE::Interchange::Private::FFbxScene::AddHierarchy(fbxsdk::FbxScene*, UInterchangeBaseNodeContainer&, TMap<FString, TSharedPtr<UE::Interchange::Private::FPayloadContextBase, (ESPMode)1>, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FString, TSharedPtr<UE::Interchange::Private::FPayloadContextBase, (ESPMode)1>, false> >&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Interchange/Runtime/Source/Parsers/Fbx/Private/FbxScene.cpp:664]
+libUnrealEditor-InterchangeFbxParser.so!UE::Interchange::Private::FFbxParser::FillContainerWithFbxScene(UInterchangeBaseNodeContainer&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Interchange/Runtime/Source/Parsers/Fbx/Private/FbxAPI.cpp:229]
+libUnrealEditor-InterchangeFbxParser.so!UE::Interchange::FInterchangeFbxParser::LoadFbxFile(FString const&, UInterchangeBaseNodeContainer&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Interchange/Runtime/Source/Parsers/Fbx/Private/InterchangeFbxParser.cpp:141]
+libUnrealEditor-InterchangeImport.so!UInterchangeFbxTranslator::Translate(UInterchangeBaseNodeContainer&) const [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Interchange/Runtime/Source/Import/Private/Fbx/InterchangeFbxTranslator.cpp:393]
+libUnrealEditor-InterchangeEngine.so!UE::Interchange::FTaskTranslator::Execute() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Interchange/Engine/Private/Tasks/InterchangeTaskTranslator.cpp:56]
+libUnrealEditor-InterchangeEngine.so!UInterchangeManager::ImportInternal(FString const&, UInterchangeSourceData const*, FImportAssetParameters const&, UE::Interchange::EImportType) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Interchange/Engine/Private/InterchangeManager.cpp:2233]
+libUnrealEditor-InterchangeEngine.so!UInterchangeManager::ImportAssetAsync(FString const&, UInterchangeSourceData const*, FImportAssetParameters const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Interchange/Engine/Private/InterchangeManager.cpp:1731]
+libUnrealEditor-AssetTools.so!UAssetToolsImpl::ImportAssetsInternal(TArray<FString, TSizedDefaultAllocator<32> > const&, FString const&, TArray<TTuple<FString, FString>, TSizedDefaultAllocator<32> >*, FAssetImportParams const&) const [/mnt/horde/++UE5/Sync/Engine/Source/./Developer/AssetTools/Private/AssetTools.cpp:3922]
+libUnrealEditor-AssetTools.so!non-virtual thunk to UAssetToolsImpl::ImportAssets(TArray<FString, TSizedDefaultAllocator<32> > const&, FString const&, UFactory*, bool, TArray<TTuple<FString, FString>, TSizedDefaultAllocator<32> >*, bool, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Developer/AssetTools/Private/AssetTools.cpp:3091]
+libUnrealEditor-UnrealEd.so!FImportFilesByPath::Run() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/ImportSubsystem.cpp:101]
+libUnrealEditor-UnrealEd.so!UImportSubsystem::HandleNextTick() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/ImportSubsystem.cpp:174]
+libUnrealEditor-Engine.so!FTimerUnifiedDelegate::Execute() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:614]
+libUnrealEditor-Engine.so!FTimerManager::Tick(float) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/TimerManager.cpp:1084]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:1775]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/UnrealEdEngine.cpp:534]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5828]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:60]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:323]
+libc.so.6!UnknownFunction(0x27487)
+libc.so.6!__libc_start_main(+0x8b)
+UnrealEditor!_start [/home/deck/Downloads/EPIG/Linux_Unreal_Engine_5.7.2/Engine/Binaries/Linux/UnrealEditor:-1]
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,5 +1,7 @@
-[22438:22438:0212/173044.675620:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[22438:22438:0212/173047.509325:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 2662ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
-[22438:22438:0212/173047.520142:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[22438:22675:0212/173047.536533:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
-[22438:22438:0212/181131.403713:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[20555:20555:0219/165419.086335:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[20555:20555:0219/165444.290199:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 25024ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
+[20555:20555:0219/165444.290301:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.open: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[20555:20555:0219/165444.290344:ERROR:kwallet_dbus.cc(165)] Error contacting kwalletd6 (open)
+[20555:20555:0219/165444.323028:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[20555:20789:0219/165444.353037:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
+[20555:20555:0219/170012.196202:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
