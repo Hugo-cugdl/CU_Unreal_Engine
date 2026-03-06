@@ -1,7 +1,6 @@
-[20555:20555:0219/165419.086335:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[20555:20555:0219/165444.290199:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 25024ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
-[20555:20555:0219/165444.290301:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.open: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
-[20555:20555:0219/165444.290344:ERROR:kwallet_dbus.cc(165)] Error contacting kwalletd6 (open)
-[20555:20555:0219/165444.323028:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[20555:20789:0219/165444.353037:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
-[20555:20555:0219/170012.196202:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[18361:18361:0305/210413.129674:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[18361:18361:0305/210417.539062:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 4090ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
+[18361:18361:0305/210417.554126:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[18361:18605:0305/210417.580016:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
+[18361:18608:0305/210432.053526:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[18361:18361:0305/211645.590098:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
