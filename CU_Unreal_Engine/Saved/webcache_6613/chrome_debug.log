@@ -40,3 +40,14 @@
 [18139:18139:0219/164402.071532:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-21926183C3C31DC795EE024815BEA380 will be ignored
 [20805:20805:0219/165419.361219:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
 [20888:20888:0219/165450.762934:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-E137F7DE6E8CC4B65F741257F096917F will be ignored
+[24183:24183:0219/172236.804132:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[24251:24251:0219/172255.651150:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-2D1376DE9BB2403FAF9042F907B2627B will be ignored
+[24249:24249:0219/181003.836606:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 6-E1CE0E9BD15520C6D5E195C99705E587 will be ignored
+[10734:10734:0305/170736.936016:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[10794:10794:0305/170812.233963:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-AD4F7614DD3D29F47DFD7A98F5D1EC52 will be ignored
+[5540:5540:0305/184746.096689:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[5601:5601:0305/184755.056792:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-CE6F37B68AC5E4FB7C07F9F950A4CA32 will be ignored
+[8745:8745:0305/194855.569016:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[8809:8809:0305/194907.169312:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-35FB3D1ADCFB9761007FBB07A2CE4187 will be ignored
+[18623:18623:0305/210413.543772:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[18686:18686:0305/210429.800569:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-22837F839DFA6AEBE1093D1DE22372C8 will be ignored
