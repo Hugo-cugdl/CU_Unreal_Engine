@@ -1,5 +1,8 @@
-2026/03/05-19:48:57.527 225c Reusing MANIFEST /home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/webcache_6613/Default/Local Storage/leveldb/MANIFEST-000001
-2026/03/05-19:48:57.535 225c Recovering log #4
-2026/03/05-19:48:57.537 225c Reusing old log /home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/webcache_6613/Default/Local Storage/leveldb/000004.log 
-2026/03/05-20:39:42.906 225c Level-0 table #7: started
-2026/03/05-20:39:42.917 225c Level-0 table #7: 67399 bytes OK
+2026/03/05-21:04:17.567 48f0 Reusing MANIFEST /home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/webcache_6613/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/05-21:04:17.574 48f0 Recovering log #4
+2026/03/05-21:04:17.576 48f0 Level-0 table #6: started
+2026/03/05-21:04:17.579 48f0 Level-0 table #6: 67399 bytes OK
+2026/03/05-21:04:17.580 48f0 Recovering log #6
+2026/03/05-21:04:17.580 48f0 Reusing old log /home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Saved/webcache_6613/Default/Local Storage/leveldb/000006.log 
+2026/03/05-21:04:17.584 48f0 Delete type=0 #4
+2026/03/05-21:04:17.584 48f0 Delete type=2 #7

@@ -1,6 +1,0 @@
-[10461:10461:0305/170736.625341:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[10461:10461:0305/170801.858973:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 25022ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
-[10461:10461:0305/170801.859084:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.open: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
-[10461:10461:0305/170801.859121:ERROR:kwallet_dbus.cc(165)] Error contacting kwalletd6 (open)
-[10461:10461:0305/170801.880300:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[10461:10716:0305/170801.900762:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
