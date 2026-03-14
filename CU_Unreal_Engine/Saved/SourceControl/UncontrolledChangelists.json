@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/Materiales/M_SimplePBR.uasset",
+				"D:/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/5A/QDSGMLN8TIJXOB8SOQVELW.uasset",
+				"D:/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/97/RX96JL6QRHC3A3G56JTCYX.uasset",
+				"D:/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/Modelo3Dimportado/caja/M_Carton.uasset",
 				"/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/Inputs/IA_Move.uasset",
 				"/home/deck/Documents/GitHub/CU_Unreal_Engine/CU_Unreal_Engine/Content/Inputs/IMC_player_one.uasset",
