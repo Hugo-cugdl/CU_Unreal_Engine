@@ -1,5 +1,7 @@
-[7261:7261:0317/181840.278871:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[7261:7261:0317/181843.935692:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 3522ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
-[7261:7261:0317/181843.947159:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[7261:7479:0317/181843.964104:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
-[7261:7261:0317/194711.641771:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[15435:15435:0319/183429.791041:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[15435:15435:0319/183439.560507:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 9626ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
+[15435:15435:0319/183439.574394:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[15435:15675:0319/183439.593040:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
+[15435:15435:0319/185928.519179:ERROR:menu_runner_views_aura.cc(24)] Window handle is required for default OSR context menu.
+[15435:15435:0319/185928.519926:ERROR:menu_manager.cc(198)] Default context menu implementation is not available; canceling the menu
+[15435:15435:0319/192217.336752:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

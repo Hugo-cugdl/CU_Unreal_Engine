@@ -1,0 +1,5 @@
+[13728:13728:0319/182357.741179:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[13728:13728:0319/182405.320216:WARNING:bus.cc(653)] Bus::SendWithReplyAndBlock took 7440ms to process message: type=method_call, path=/modules/kwalletd6, interface=org.kde.KWallet, member=open
+[13728:13728:0319/182405.340470:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[13728:13966:0319/182405.359182:WARNING:user_type_filter.cc(59)] No user type filter specified for cimiefiiaegbelhefglklhhakcgmhkai. Using default user type filter, please update the app.
+[13728:13728:0319/183227.942949:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
