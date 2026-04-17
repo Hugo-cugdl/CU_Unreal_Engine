@@ -62,3 +62,7 @@
 [14048:14048:0319/182417.837781:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-F3E93DE8D0341504A52131EF7BE99B9F will be ignored
 [15693:15693:0319/183430.020490:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
 [15756:15756:0319/183449.275641:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-94942D16A7DD60EF3D3DBE71F2B26966 will be ignored
+[11855:11855:0324/182912.977498:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[11926:11926:0324/182952.512331:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-F1F8CA16BDEAE86F435AEDF2EE9FDEE5 will be ignored
+[22048:22048:0416/193034.009205:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[22121:22121:0416/193053.065522:WARNING:frame_impl.cc(430)] SendProcessMessage sent to detached frame 5-28A183E441A9DD0FB78E7AD8871705F0 will be ignored
